@@ -1,0 +1,65 @@
+/* ✅ Background - Rich Gradient for Better Contrast */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #2a2a2a, #1a1a1a);  /* 🔥 Dark gray gradient instead of black */
+    color: white;
+}
+
+/* ✅ Title Styling */
+h1 {
+    text-align: center;
+    color: gold;
+    font-size: 42px;
+    text-shadow: 3px 3px 8px rgba(255, 215, 0, 0.4); /* 🔥 More visible glow */
+}
+
+/* ✅ Subtitle */
+p {
+    text-align: center;
+    color: lightgray;
+}
+
+/* ✅ Player Image Styling - Bigger & More Visible */
+.player-img {
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    border: 4px solid #666;  /* 🔥 Lighter border for visibility */
+    width: 360px;  /* 🔥 Increased size */
+    height: 360px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    
+    /* 🔥 Soft outer glow */
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.15);
+}
+
+/* ✅ Hover Effect */
+.player-img:hover {
+    transform: scale(1.1);
+    border-color: gold;
+    box-shadow: 0px 0px 30px rgba(255, 215, 0, 0.6); /* 🔥 Enhanced glow */
+}
+/* ✅ Subtle Button Styling */
+.stButton > button {
+    background: linear-gradient(to right, #444, #222);  /* 🔹 Darker, Sleek Gradient */
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 2px 6px rgba(255, 255, 255, 0.1); /* 🔹 Soft Glow */
+}
+
+/* ✅ Hover Effect - Slight Glow */
+.stButton > button:hover {
+    background: linear-gradient(to right, #555, #333);
+    transform: scale(1.03);
+    box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.15); /* 🔹 Slightly Enhanced Glow */
+}
+section[data-testid="stSidebarNav"] {
+    display: none;
+}
